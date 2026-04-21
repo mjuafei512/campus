@@ -2,11 +2,11 @@
 
 ```
 /Content
-├── _Core/                   # 核心系统资源（框架、管理器、通用工具）
+     ├── _Core/                   # 核心系统资源（框架、管理器、通用工具）
             ├── Blueprints/              # 核心蓝图（如游戏模式、玩家控制器、游戏实例）
             ├── Materials/               # 通用材质（如标准PBR材质、UI材质）
             └── Maps/                    # 核心地图（如主菜单、登录关卡、持久化关卡）
-├── Characters/              # 所有角色相关资源（玩家、NPC）
+     ├── Characters/              # 所有角色相关资源（玩家、NPC）
             ├── Player/                  # 玩家角色
             │   ├── Meshes/              # 玩家模型（身体、服装）
             │   ├── Animations/          # 玩家动画（待机、跑步、社交动作）
@@ -19,7 +19,7 @@
                     ├── Meshes/          # 对应NPC的模型
                     ├── Animations/      # 对应NPC的动画
                     └── Blueprints/      # NPC行为逻辑蓝图
-├── Environments/            # 校园场景资源（建筑、道具、植被）
+     ├── Environments/            # 校园场景资源（建筑、道具、植被）
             ├── Maps/                    # 所有关卡地图
             │   ├── Main_Campus/         # 主校园场景
             │   ├── Classroom_01/        # 教室场景
@@ -32,18 +32,18 @@
             ├── Buildings/               # 建筑模块（墙体、门窗、屋顶）
             ├── Vegetation/              # 植被（树木、花草、灌木）
             └── Materials/               # 场景专用材质（如墙面漆、木地板、草地）
-├── UI/                      # 用户界面资源
+     ├── UI/                      # 用户界面资源
             ├── Layouts/                 # UI布局（主界面、背包、聊天窗口）
             ├── Widgets/                 # 通用控件（按钮、图标、血条、聊天气泡）
             ├── Icons/                   # 图标资源（技能图标、物品图标）
             ├── Fonts/                   # 游戏使用的字体
             └── Materials/               # UI特效材质（如流光、高亮）
-├── Audio/                   # 音频资源（背景音乐、音效、语音）
+     ├── Audio/                   # 音频资源（背景音乐、音效、语音）
             ├── BGM/                     # 背景音乐（校园氛围、教室、宿舍）
             ├── SFX/                     # 音效（脚步声、交互声、UI点击声）
             └── Voice/                   # 语音（NPC对话、系统提示）
-├── VFX/                     # 特效资源（技能、环境、UI特效）
-└── Data/                    # 游戏数据（DataAssets, DataTables）
+     ├── VFX/                     # 特效资源（技能、环境、UI特效）
+     └── Data/                    # 游戏数据（DataAssets, DataTables）
             ├── Items/                   # 物品数据（服装、道具属性）
             ├── NPCs/                    # NPC数据（对话、行为参数）
             ├── Quests/                  # 任务数据（任务目标、奖励）
@@ -52,15 +52,15 @@
 
 ```
 /Source
-└── MyCampusGame/            # 你的游戏模块
-    ├── Public/              # 公开的头文件（.h）
-    │   ├── Characters/      # 角色相关的C++类
-    │   ├── Social/          # 社交系统相关的C++类
-    │   └── Interaction/     # 交互系统相关的C++类
-    └── Private/             # 私有实现文件（.cpp）
-        ├── Characters/
-        ├── Social/
-        └── Interaction/
+     └── MyCampusGame/            # 你的游戏模块
+         ├── Public/              # 公开的头文件（.h）
+         │   ├── Characters/      # 角色相关的C++类
+         │   ├── Social/          # 社交系统相关的C++类
+         │   └── Interaction/     # 交互系统相关的C++类
+         └── Private/             # 私有实现文件（.cpp）
+             ├── Characters/
+             ├── Social/
+             └── Interaction/
 ```
 
 
