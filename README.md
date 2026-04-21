@@ -1,4 +1,6 @@
 # campus
+
+```
 /Content
 ├── _Core/                   # 核心系统资源（框架、管理器、通用工具）
             ├── Blueprints/              # 核心蓝图（如游戏模式、玩家控制器、游戏实例）
@@ -46,11 +48,9 @@
             ├── NPCs/                    # NPC数据（对话、行为参数）
             ├── Quests/                  # 任务数据（任务目标、奖励）
             └── Social/                  # 社交数据（表情、动作列表）
+```
 
-
-
-
-
+```
 /Source
 └── MyCampusGame/            # 你的游戏模块
     ├── Public/              # 公开的头文件（.h）
@@ -61,6 +61,7 @@
         ├── Characters/
         ├── Social/
         └── Interaction/
+```
 
 
 | 资产类型 | 推荐前缀 | 命名风格 | 示例 |
